@@ -3,3 +3,16 @@ img {
 }
 
 /* Code Under This Line */
+div:first-of-type{
+  border: solid red 10px;
+}
+div:nth-of-type(2){
+  border: dashed blue 10px;
+}
+div:nth-of-type(3){
+  border-left: solid green 10px;
+}
+div:nth-of-type(4){
+  border: solid 10px;
+  border-color: red blue;
+}
